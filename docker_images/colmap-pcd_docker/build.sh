@@ -1,0 +1,1 @@
+podman build --rm -t colmap-pcd -f Dockerfile .

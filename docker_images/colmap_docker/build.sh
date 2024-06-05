@@ -1,0 +1,1 @@
+podman build --rm -t colmap-modified -f Dockerfile .

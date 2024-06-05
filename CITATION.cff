@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 3D Powergrid Inspection
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jørgen
+    family-names: Hjemmen Andersen
+repository-code: 'https://github.com/Jorgen-ha/3D-Powergrid-Inspection'
+abstract: >-
+  Project holding the code and results of my MSc thesis
+  project, concerned with generating high-fidelity 3D models
+  from high-resolution drone imagery, using photogrammetry. 
+keywords:
+  - photogrammetry
+  - point-cloud-registration
+  - colmap
+  - 3d-reconstruction
