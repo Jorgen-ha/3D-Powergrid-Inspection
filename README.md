@@ -28,9 +28,10 @@ All that is required as input is the images. Colmap has an automatic reconstruct
 The output of Colmap is displayed in the below figure, next to the equivalent LiDAR point cloud of the same mast. 
 ![image](https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/c4a25a6e-9a4b-4489-8afc-12e7fa1e438a)
 
-Given that 3D models are best viewed in 3D, a video displaying the results from different angles is also provided: 
+A video displaying the results from different angles is also provided: 
 
-https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/9241ffec-f7c3-4890-a472-ccb22762d5bb
+https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/ce9e593a-5e2e-44d3-82d6-78ae850bcc26
+
 
 ### Meshroom
 Meshroom is a free open-source 3D reconstruction software based on the Alicevision framework, introduced by Griwodz in 2021. 
@@ -42,7 +43,7 @@ The output of Meshroom is displayed in the below figure, next to the equivalent 
 
 A video displaying the reconstruction from more angles can be found below:
 
-https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/7170eea0-4636-4825-98ac-82f9b93667f7
+https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/8d0830fa-8798-4f90-bd4b-96bf9608d292
 
 ### Nerfstudio
 Nerfstudio is an open-source initiative focused on being a contributor-friendly and easy-to-work-with API for exploring Neural Radiance Fields (NeRFs). Instead of relying on photogrammetry methods, NeRFs attempt to render views that are not captured in the images directly, but can be inferred from them using traditional rendering techniques.
@@ -53,7 +54,7 @@ For this implementation, the Instant-NGP model provided by Nerfstudio was the pr
 
 A video can also be found below:
 
-https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/04a4918f-c4f5-4772-bd71-e03cf25581f2
+https://github.com/Jorgen-ha/3D-Powergrid-Inspection/assets/51888629/bf872193-b3e5-4126-a7c5-c32d31bc7649
 
 ### All frameworks vs LiDAR
 To inspect the results of all three frameworks compared to the LiDAR point cloud, the below video was made. Here, the LiDAR point cloud is displayed at the bottom, with the Colmap, Meshroom and NeRF results above (in that order, from left to right). 
