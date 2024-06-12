@@ -1,0 +1,9 @@
+laspy==2.5.3
+mathutils==3.3.0
+matplotlib==3.8.4
+numpy==1.24.1
+open3d==0.18.0
+pandas==1.5.3
+pdal==3.3.0
+pdal_plugins==1.3.0
+utm==0.7.0
